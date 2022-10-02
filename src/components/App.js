@@ -12,6 +12,7 @@ export default function App() {
 
   const buttonClick = () => {
     setText((prevText) => prevText + inputValue);
+    setInputValue("");
   };
 
   return (
